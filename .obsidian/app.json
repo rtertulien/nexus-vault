@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "30-Resources/Attachments",
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "promptDelete": false
+}
