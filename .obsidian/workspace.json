@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-Resources/Agentes.md",
+                "file": "20-Daily/2026-06/2026-08-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentes"
+              "title": "2026-08-07"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -210,12 +212,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,6 +235,10 @@
   },
   "active": "deedd67e578a9e30",
   "lastOpenFiles": [
+    "20-Daily/2026-06/2026-08-07.md",
+    "20-Daily/2026-07/2026-07-27.md",
+    "20-Daily/2026-07/2026-07-25.md",
+    "30-Resources/Agentes.md",
     "30-Resources/Memoria.md",
     "30-Resources/Obsidian Curator - Instrucciones.md",
     "30-Resources/Optimización Tokens.md",
@@ -257,10 +263,6 @@
     "10-Projects/FitTrack",
     "10-Projects/Dead Again",
     "10-Projects/Projects MOC.md",
-    "10-Projects/Proyecto Humanitario.md",
-    "10-Projects/Shinobi Track.md",
-    "10-Projects/The Lawbringer.md",
-    "10-Projects/VeraCode.md",
     "10-Projects/Mac Setup 2026",
     "Daily.md.27055b3f6afe1541210e224bfa79059d.tmp",
     "10-Projects/Coda",
