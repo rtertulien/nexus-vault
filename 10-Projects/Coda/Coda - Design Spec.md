@@ -1,7 +1,7 @@
 ---
 type: spec
 project: Coda
-status: completed
+status: completado
 fecha: 2026-06-23
 up: "[[Coda]]"
 area: "[[Dev]]"

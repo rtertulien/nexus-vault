@@ -1,9 +1,12 @@
 ---
-status: activo
+type: project
+status: completado
+prioridad: media
+inicio: 2026-07-26
 created: 2026-07-26
 updated: 2026-07-27
 tags: [spotify, wrapped, cosmic-neon, aurora-nova, vanilla-js, pwa, oauth]
-up: "[[Nexus]]"
+up: "[[Projects MOC]]"
 ---
 
 # Spotify Wrapped Cosmic Neon — Aurora Nova

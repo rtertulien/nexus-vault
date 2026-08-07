@@ -2,7 +2,7 @@
 title: "OpenCode + Xcode Setup para MacBook"
 date: 2026-07-10
 tags: [project, mac-setup, opencode, xcode, xcodebuildmcp, ios, swiftui]
-status: active
+status: activo
 type: project
 up: "[[Mac Setup 2026]]"
 ---

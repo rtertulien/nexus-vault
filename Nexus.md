@@ -33,21 +33,30 @@ LIMIT 7
 
 ## 📁 Proyectos
 
-- [[Coda]]
-- [[Tally|Tally — Expense Tracker]]
-- [[Mac Setup 2026]]
-- [[Shinobi Track]]
-- [[Makimono]]
-- [[VeraCode]]
-- [[Proyecto Humanitario]]
-- [[The Lawbringer]]
-- [[Homelab - Mini PCs]]
-- [[Homelab - Docker Compose]]
+- [[GLITCH HUD]] — Gaming news landing page
+- [[Shinobi Track]] — PWA seguimiento anime
+- [[Makimono]] — PWA lector manga
+- [[Coda]] — Subscription tracker
+- [[Isaac Guide]] — Wiki The Binding of Isaac
+- [[Spotify Wrapped]] — Year in review
+- [[VeraCode]] — Videojuego forense
+- [[Mac Setup 2026]] — Setup G14 + MacBook + iPhone
+- [[Homelab - Mini PCs]] — Homelab setup
+- [[Homelab - Docker Compose]] — Docker services
+- [[Proyecto Humanitario]] — Centro madres solteras
+- [[The Lawbringer]] — Build planner Stoneshard
+- [[iOS Projects]] — Apps nativas iOS
+- [[Desarrollo Android]] — Apps Android
 - [[Dead Again - Game Design|Dead Again — Zombie Incremental]]
 - [[FitTrack - App Design|FitTrack — Fitness App]]
 
 ## 📚 Recursos
 
+- [[30-Resources/Premium Design Stack|Premium Design Stack]] — Stack completo de diseño premium (GSAP, Three.js, Lenis, APIs)
+- [[30-Resources/Plugins opencode|Plugins opencode]] — Plugins, MCP servers y agentes configurados
+- [[30-Resources/Agentes|Agentes]] — Sistema de 7 agentes opencode
+- [[Obsidian Curator - Instrucciones]] — Mantenimiento del vault
+- [[30-Resources/Optimización Tokens|Optimización de Tokens]] — Guía de ahorro
 - [[PixelLab]] — Sprites con IA
 
 ## 🎯 Hoy

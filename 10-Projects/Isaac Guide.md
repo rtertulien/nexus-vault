@@ -2,7 +2,7 @@
 title: Isaac Guide
 up: "[[Nexus]]"
 tags: [isaac, guia, referencia, gaming]
-status: en-desarrollo
+status: en-pausa
 fecha_inicio: 2026-07-24
 type: project
 ---

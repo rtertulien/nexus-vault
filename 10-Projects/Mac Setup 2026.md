@@ -1,7 +1,7 @@
 ---
 title: Mac Setup 2026 — Configuración Final
 date: 2026-07-09
-status: active
+status: activo
 priority: alta
 type: project
 tags:

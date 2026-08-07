@@ -14,7 +14,7 @@ up: "[[Nexus]]"
 | -------------------- | ----------------- | -------------------------------------------------- |
 | **supervisor**       | Kimi K2.7 Code    | Features, arquitectura, coding (orquesta y delega) |
 | **shinobi-reviewer** | DeepSeek V4 Pro   | QA código: bugs, edge cases, regresiones           |
-| **data-ninja**       | DeepSeek V4 Pro   | APIs, endpoints, fetch, IndexedDB                  |
+| **data-ninja**       | GPT-5.6 Luna     | APIs, endpoints, fetch, IndexedDB                  |
 | **designer**         | MiniMax M3        | CSS, UI, prototipos + visión nativa                |
 | **investigador**     | Mimo V2.5         | Verificación estricta, múltiples fuentes           |
 | **content-curator**  | MiniMax M3        | Investigación contenido, síntesis, redacción       |
@@ -64,11 +64,12 @@ C:\Users\rtert\.config\opencode\agents\
 Cada archivo contiene frontmatter YAML (description, mode, model, temperature, steps, color) + prompt detallado. OpenCode los carga al inicio de cada sesión.
 
 ## Costos (aprox / 1M tokens)
-- DeepSeek V4 Pro: $0.87
+- GPT-5.6 Luna: $1.20 output / $0.20 input
+- DeepSeek V4 Pro: $3.48
 - DeepSeek V4 Flash: $0.28
-- MiniMax M3: $2.40
-- Qwen 3.7 Plus: $3.00
-- Kimi K2.7 Code: $3.50
+- MiniMax M3: $1.20
+- Qwen 3.7 Plus: $1.60
+- Kimi K2.7 Code: $4.00
 
 ## Historial de cambios
 - **24 Jun 2026:** migrado a deepseek-v4-pro (1M contexto, 97% cache, comunidad valida como frontier-level, reemplaza a qwen3.7-plus en declive -38%)

@@ -1,7 +1,10 @@
 ---
-up: "[[Projects MOC]]"
+type: project
 status: completado
-area: desarrollo
+prioridad: media
+inicio: 2026-08-06
+area: "[[Dev]]"
+up: "[[Projects MOC]]"
 created: 2026-08-06
 updated: 2026-08-06
 tags:
@@ -20,6 +23,7 @@ Gaming news landing page estilo HUD corrupto + glitch magazine. 14 archivos, ~28
 - **Ubicación:** `C:\Users\rtert\Documents\glitch-hud\`
 - **Stack:** HTML + CSS + JS vanilla, GSAP 3.12.7 + ScrollTrigger, Lenis 1.1.18, Three.js r128, Chart.js 4.4.7
 - **Diseño:** fondo `#0a0a0f`, acento `#00ff88`, fuentes VT323 / Share Tech Mono, glassmorphism, scanlines, noise overlay
+- **Ref:** [[30-Resources/Premium Design Stack|Premium Design Stack]]
 
 ## Estado: Completado
 - **7 secciones:** HUD overlay, hero 3D, breaking news (6 cards live), top games (5 con Chart.js), trending tabs, newsletter, footer

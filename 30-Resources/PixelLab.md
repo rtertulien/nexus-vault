@@ -1,7 +1,7 @@
 ---
 title: "PixelLab"
-type: reference
-status: active
+type: resource
+status: activo
 up: "[[Nexus]]"
 date: 2026-07-10
 tags:

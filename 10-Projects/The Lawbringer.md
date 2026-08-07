@@ -1,6 +1,6 @@
 ---
 type: project
-status: completado
+status: activo
 prioridad: baja
 inicio: 2026-06-08
 area: "[[Dev]]"

@@ -10,7 +10,7 @@ tags:
   - swiftui
   - spritekit
   - healthkit
-status: active
+status: activo
 type: project
 up: "[[Nexus]]"
 ---

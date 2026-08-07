@@ -1,7 +1,7 @@
 ---
 title: "Homelab - Docker Compose"
 date: 2026-07-04
-status: proot
+status: activo
 type: reference
 tags: [homelab, docker, compose, arr-stack, gluetun, vpn, trash-guides]
 up: [[Homelab - Mini PCs]]

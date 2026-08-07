@@ -1,7 +1,7 @@
 ---
 type: project
-status: en-pausa
-prioridad: baja
+status: activo
+prioridad: media
 inicio: 2026-06-14
 area: "[[Dev]]"
 up: "[[Dev]]"

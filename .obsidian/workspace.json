@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98a947c892724909",
+        "id": "b6dd550f1cdd5104",
         "type": "tabs",
         "children": [
           {
-            "id": "deedd67e578a9e30",
+            "id": "ef52982c4f53d6de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-Daily/2026-06/2026-08-07.md",
+                "file": "20-Daily/2026-07/2026-07-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-07"
+              "title": "2026-07-17"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 508.5
+    "width": 396.70001220703125
   },
   "right": {
     "id": "1d4867c42ea52157",
@@ -90,20 +90,6 @@
         "id": "916eeab45c789c2e",
         "type": "tabs",
         "children": [
-          {
-            "id": "3a5e562f1d01d3e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10-Projects/Sub Tracker/Coda - Design Spec.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Coda - Design Spec"
-            }
-          },
           {
             "id": "078b9bd8de47cfb4",
             "type": "leaf",
@@ -212,12 +198,12 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 640.7000122070312,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,17 +219,22 @@
       "opencode-obsidian:OpenCode": false
     }
   },
-  "active": "deedd67e578a9e30",
+  "active": "ef52982c4f53d6de",
   "lastOpenFiles": [
+    "10-Projects/Projects MOC.md",
+    "30-Resources/Plugins opencode.md",
+    "30-Resources/Obsidian Curator - Instrucciones.md",
+    "30-Resources/Premium Design Stack.md",
+    "20-Daily/2026-08/2026-08-07.md",
     "20-Daily/2026-06/2026-08-07.md",
+    "Daily.md",
+    "20-Daily/2026-08",
     "20-Daily/2026-07/2026-07-27.md",
     "20-Daily/2026-07/2026-07-25.md",
     "30-Resources/Agentes.md",
     "30-Resources/Memoria.md",
-    "30-Resources/Obsidian Curator - Instrucciones.md",
     "30-Resources/Optimización Tokens.md",
     "30-Resources/PixelLab.md",
-    "30-Resources/Plugins opencode.md",
     "20-Daily/2026-06/2026-07-27.md",
     "10-Projects/Isaac Guide.md",
     "10-Projects/iOS Projects.md",
@@ -257,12 +248,8 @@
     "20-Daily/2026-06/2026-07-11.md",
     "10-Projects/Dead Again/Dead Again - Game Design.md",
     "10-Projects/Makimono/Makimono v2 - Design Spec.md",
-    "10-Projects/Coda/Coda - Design Spec.md",
-    "10-Projects/FitTrack/FitTrack - App Design.md",
-    "10-Projects/Makimono.md",
     "10-Projects/FitTrack",
     "10-Projects/Dead Again",
-    "10-Projects/Projects MOC.md",
     "10-Projects/Mac Setup 2026",
     "Daily.md.27055b3f6afe1541210e224bfa79059d.tmp",
     "10-Projects/Coda",
@@ -270,7 +257,6 @@
     "30-Resources/~$Presupuesto_Centro_Madres_Solteras_PROFESIONAL.xlsx",
     "30-Resources/Presupuesto_Centro_Madres_Solteras_PROFESIONAL.xlsx",
     "30-Resources/~$opuesta_Centro_Madres_Solteras.docx",
-    "30-Resources/~$opuesta_Centro_Madres_Solteras_PROFESIONAL.docx",
     "Sin título.canvas"
   ]
 }

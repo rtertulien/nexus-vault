@@ -1,7 +1,7 @@
 ---
 title: Desarrollo Android — Setup y MCP Servers
 date: 2026-07-20
-status: active
+status: activo
 priority: media
 type: project
 tags:

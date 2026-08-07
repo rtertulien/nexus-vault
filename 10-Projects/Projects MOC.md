@@ -12,14 +12,22 @@ related: ["[[Dev]]", "[[00-Inbox]]"]
 > Template: [[30-Resources/Project Template|📋 Project Template]]
 
 ## Proyectos
-- [[Shinobi Track]]
-- [[Makimono]]
-- [[VeraCode]]
-- [[Coda]]
-- [[GLITCH HUD]]
-- [[Tally]]
-- [[Proyecto Humanitario]]
-- [[The Lawbringer]]
+- [[Shinobi Track]] — PWA seguimiento anime, desplegado
+- [[Makimono]] — PWA lector manga, proot listo
+- [[Coda]] — Subscription tracker, desplegado
+- [[GLITCH HUD]] — Gaming news landing page, completado
+- [[Isaac Guide]] — Wiki The Binding of Isaac, pausado
+- [[Spotify Wrapped]] — Year in review, completado
+- [[VeraCode]] — Videojuego forense, spec listo
+- [[Mac Setup 2026]] — Setup G14 + MacBook + iPhone
+- [[Homelab - Mini PCs]] — Homelab setup
+- [[Homelab - Docker Compose]] — Docker services
+- [[Proyecto Humanitario]] — Centro madres solteras
+- [[The Lawbringer]] — Build planner Stoneshard
+- [[iOS Projects]] — Apps nativas iOS
+- [[Desarrollo Android]] — Apps Android
+- [[Dead Again - Game Design]] — Game design document
+- [[FitTrack - App Design]] — Fitness app design
 
 ## Active
 
