@@ -2,5 +2,6 @@
   "accentColor": "#e11d48",
   "theme": "obsidian",
   "baseFontSize": 15,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "cssTheme": "Minimal"
 }

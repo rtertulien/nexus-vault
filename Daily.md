@@ -1,0 +1,25 @@
+---
+type: moc
+tags: [moc, daily]
+up: "[[Nexus]]"
+---
+
+# Daily 🗓️
+
+> Índice de notas diarias. Cada daily enlaza aquí como `up`.
+
+> Template: [[30-Resources/Daily Template|Daily Template]]
+
+## 2026
+- [[2026-06-15]]
+- [[2026-06-16]]
+- [[2026-06-17]]
+- [[2026-06-23]]
+- [[2026-06-24]]
+- [[2026-07-03]]
+- [[2026-07-04]]
+- [[2026-07-05]]
+- [[2026-07-07]]
+- [[2026-07-08]]
+- [[2026-07-09]]
+- [[2026-07-10]]

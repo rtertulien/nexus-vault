@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fa5c9fe3faa6bdc",
+        "id": "98a947c892724909",
         "type": "tabs",
         "children": [
           {
-            "id": "ae4b489b26dbfc51",
+            "id": "deedd67e578a9e30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bienvenido.md",
+                "file": "30-Resources/Agentes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bienvenido"
-            }
-          }
-        ]
-      },
-      {
-        "id": "50febde715e84c61",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "57e4a521e87f305a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Agentes"
             }
           }
         ]
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 508.5
   },
   "right": {
     "id": "1d4867c42ea52157",
@@ -105,12 +89,39 @@
         "type": "tabs",
         "children": [
           {
+            "id": "3a5e562f1d01d3e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-Projects/Sub Tracker/Coda - Design Spec.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Coda - Design Spec"
+            }
+          },
+          {
+            "id": "078b9bd8de47cfb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-Projects/Projects MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Projects MOC"
+            }
+          },
+          {
             "id": "acbceac7e7476c1d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Bienvenido"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -129,12 +140,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenido.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Bienvenido"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -172,46 +182,93 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenido.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Bienvenido"
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "73889ef1253eef82",
+            "type": "leaf",
+            "state": {
+              "type": "opencode-view",
+              "state": {},
+              "icon": "opencode-logo",
+              "title": "OpenCode"
+            }
+          },
+          {
+            "id": "04a6d12580334f72",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
+      "switcher:Abrir selector rápido": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "opencode-obsidian:OpenCode": false
     }
   },
-  "active": "ae4b489b26dbfc51",
+  "active": "deedd67e578a9e30",
   "lastOpenFiles": [
-    "20-Daily/2026-06/2026-06-16.md",
-    "40-Templates/Daily.md",
-    "20-Daily/2026-06",
-    "10-Projects/Sub Tracker",
-    "10-Projects/VeraCode",
-    "10-Projects/Makimono",
-    "10-Projects/Shinobi Track",
-    "40-Templates",
-    "30-Resources",
-    "20-Daily",
-    "10-Projects",
-    "Bienvenido.md"
+    "30-Resources/Memoria.md",
+    "30-Resources/Obsidian Curator - Instrucciones.md",
+    "30-Resources/Optimización Tokens.md",
+    "30-Resources/PixelLab.md",
+    "30-Resources/Plugins opencode.md",
+    "20-Daily/2026-06/2026-07-27.md",
+    "10-Projects/Isaac Guide.md",
+    "10-Projects/iOS Projects.md",
+    "20-Daily/2026-06/2026-07-24.md",
+    "10-Projects/Homelab - Docker Compose.md",
+    "10-Projects/Desarrollo Android.md",
+    "10-Projects/Mac Setup 2026.md",
+    "20-Daily/2026-06/2026-07-20.md",
+    "20-Daily/2026-06/2026-07-17.md",
+    "10-Projects/Mac Setup 2026/OpenCode + Xcode Setup.md",
+    "20-Daily/2026-06/2026-07-11.md",
+    "10-Projects/Dead Again/Dead Again - Game Design.md",
+    "10-Projects/Makimono/Makimono v2 - Design Spec.md",
+    "10-Projects/Coda/Coda - Design Spec.md",
+    "10-Projects/FitTrack/FitTrack - App Design.md",
+    "10-Projects/Makimono.md",
+    "10-Projects/FitTrack",
+    "10-Projects/Dead Again",
+    "10-Projects/Projects MOC.md",
+    "10-Projects/Proyecto Humanitario.md",
+    "10-Projects/Shinobi Track.md",
+    "10-Projects/The Lawbringer.md",
+    "10-Projects/VeraCode.md",
+    "10-Projects/Mac Setup 2026",
+    "Daily.md.27055b3f6afe1541210e224bfa79059d.tmp",
+    "10-Projects/Coda",
+    "10-Projects/Tally",
+    "30-Resources/~$Presupuesto_Centro_Madres_Solteras_PROFESIONAL.xlsx",
+    "30-Resources/Presupuesto_Centro_Madres_Solteras_PROFESIONAL.xlsx",
+    "30-Resources/~$opuesta_Centro_Madres_Solteras.docx",
+    "30-Resources/~$opuesta_Centro_Madres_Solteras_PROFESIONAL.docx",
+    "Sin título.canvas"
   ]
 }

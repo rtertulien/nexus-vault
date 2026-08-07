@@ -6,5 +6,6 @@
   "showUnsupportedFiles": true,
   "readableLineLength": true,
   "strictLineBreaks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "openBehavior": "daily"
 }
