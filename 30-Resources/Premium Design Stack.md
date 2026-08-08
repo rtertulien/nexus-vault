@@ -3,7 +3,7 @@ type: resource
 up: "[[Nexus]]"
 tags: [resources, design, premium-stack, animations, APIs]
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-08
 ---
 
 # Premium Design Stack
@@ -63,6 +63,46 @@ updated: 2026-08-07
 - **Precio:** Free
 - **CDN:** `https://cdn.jsdelivr.net/npm/lottie-web@5.12.2/build/player/lottie.min.js`
 - **Uso:** Backup de Rive. Tiene librería ENORME de animaciones gratuitas (LottieFiles).
+
+---
+
+## Capa Adicional (añadida 2026-08-08)
+
+### 8. 21st.dev
+- **Qué hace:** Catálogo de 12,000+ componentes UI React + Tailwind (shadcn/ui style)
+- **Precio:** Free tier (2 copias de código/día, búsqueda ilimitada) / Pro $6/mes
+- **MCP:** Configurado en `opencode.jsonc` (línea 24) con API key
+- **Uso:** Solo en proyectos React/Next.js. Buscar → copiar código → adaptar con Framer Motion.
+- **Flujo:** `21st_search` (ilimitado) → `21st_get_component` (2/día) → adaptar
+- **Sitio:** https://21st.dev — usuario puede buscar desde su cuenta y enviar links
+- **Nota:** NO aplica a PWAs vanilla (Shinobi, Coda, GLITCH HUD)
+
+### 9. UI UX Pro Max
+- **Qué hace:** Motor de razonamiento de diseño UI/UX (design systems)
+- **Precio:** Free (MIT), 115k stars GitHub
+- **Ubicación:** `C:\Users\rtert\Documents\Kobo\.opencode\skills\ui-ux-pro-max\`
+- **Capacidades:** 161 reasoning rules, 84 estilos UI, 22 stacks, anti-patrones
+- **Uso:** Cerebro de diseño (design system + estilo) — complementa a frontend-design (implementación)
+- **Style #33 "HUD/Sci-Fi FUI"** = el usado en GLITCH HUD
+- **Requiere:** Python 3.x
+
+### 10. Howler.js
+- **Qué hace:** Micro-sonidos para UI (clicks, hover, transitions)
+- **Precio:** Free (MIT)
+- **Instalado:** Global v2.2.4 en `C:\Users\rtert\AppData\Roaming\npm`
+- **CDN:** `https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js`
+- **Uso:** Feedback auditivo premium en cualquier proyecto
+
+### 11. Framer Motion (regla OBLIGATORIA en React/Next.js)
+- **Qué hace:** Animaciones declarativas (springs, gestures, layout, scroll)
+- **Precio:** Free (MIT), Motion+ pago opcional
+- **Instalación:** `npm install motion` → `import { motion } from "motion/react"`
+- **Uso:** OBLIGATORIO en todo proyecto Next.js/React (regla del designer agent)
+- **Reemplaza a GSAP dentro de React.** GSAP sigue siendo correcto en vanilla/Three.js
+- **Ejemplo:**
+  ```jsx
+  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+  ```
 
 ---
 
@@ -146,6 +186,9 @@ supervisor delega → agente genera → shinobi-reviewer evalúa (rubric)
 4. **Tailwind** para estilos (o CSS custom properties)
 5. **RSS** para noticias en tiempo real (gratis, sin key)
 6. **Investigador primero** — verificar endpoints antes de implementar
+7. **React/Next.js → Framer Motion** (`npm install motion`) OBLIGATORIO
+8. **21st.dev** para componentes UI listos en proyectos React
+9. **UI UX Pro Max** para design system + estilo antes de implementar
 
 ---
 
@@ -157,4 +200,4 @@ supervisor delega → agente genera → shinobi-reviewer evalúa (rubric)
 
 ---
 
-*Última actualización: 2026-08-07*
+*Última actualización: 2026-08-08*
