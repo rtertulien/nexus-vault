@@ -3,7 +3,7 @@ type: resource
 up: "[[Nexus]]"
 tags: [resources, design, premium-stack, animations, APIs]
 created: 2026-08-07
-updated: 2026-08-08
+updated: 2026-08-13
 ---
 
 # Premium Design Stack
@@ -22,8 +22,9 @@ updated: 2026-08-08
 ### 1. GSAP (GreenSock)
 - **Qué hace:** Animaciones scroll, parallax, text effects, ScrollTrigger
 - **Precio:** 100% free (Webflow lo hizo free en 2026)
-- **CDN:** `https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js`
-- **CDN ScrollTrigger:** `https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js`
+- **CDN:** `https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js`
+- **CDN ScrollTrigger:** `https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js`
+- **Plugins gratis:** SplitText, ScrollSmoother, Flip, MorphSVG, Draggable, Inertia, DrawSVG (todos incluidos desde v3.13+)
 - **Uso:** SIEMPRE en todo proyecto nuevo
 - **Fuentes:** Nike, Apple, Amazon lo usan
 
@@ -103,6 +104,49 @@ updated: 2026-08-08
   ```jsx
   <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
   ```
+
+---
+
+## Stack Expandido (añadida 2026-08-13)
+
+### 12. Magic UI
+- **Qué hace:** 150+ componentes animados (marquee, bento grid, dock, particles, animated text)
+- **Precio:** ~70 gratis, ~50+ Pro ($199 one-time)
+- **Stack:** React + Tailwind + Motion (registry estilo shadcn/ui)
+- **Instalación:** `pnpm dlx shadcn@latest add @magicui/marquee`
+- **Uso:** Para marquee de logos, bento grids, animated text, glow effects
+
+### 13. Swiper.js v14.1
+- **Qué hace:** Carousels premium (gallery, testimonios, showcases)
+- **Precio:** Free (MIT)
+- **CDN:** `https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js`
+- **CSS:** `https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css`
+- **Uso:** Solo si se necesita gallery interactivo. Para testimonios simples → CSS scroll-snap
+
+### 14. Fontshare Fonts
+- **Qué hace:** Fonts premium gratis (Clash Display para headings, Satoshi para body)
+- **Precio:** Free (SIL Open Font License)
+- **CDN:** `https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700&display=swap`
+- **Uso:** Reemplaza Google Fonts para look premium tipo agencia
+
+### 15. TypeScript
+- **Qué hace:** JavaScript + tipos estáticos, autocompletado, detección de errores en compilación
+- **Precio:** Free (open source)
+- **Uso:** OBLIGATORIO en cada proyecto nuevo. Archivos `.ts`/`.tsx` en vez de `.js`/`.jsx`
+- **Next.js:** Soporte nativo desde create-next-app
+
+### 16. GLSL (Shaders)
+- **Qué hace:** Efectos visuales imposibles con CSS/JS: distorsiones, luz volumétrica, partículas GPU, post-processing
+- **Librería:** LYGIA (3.4k★) — funciones modulares reutilizables
+- **Uso:** Con Three.js `ShaderMaterial` para efectos premium. Learning path: 8 semanas
+- **Efectos clave:** Noise, distortion, chromatic aberration, bloom, FBM
+
+### 17. Rust + WASM
+- **Qué hace:** Rendimiento nativo en browser (10-100x más rápido que JS)
+- **Herramientas:** wasm-pack, wasm-bindgen, web-sys
+- **Uso:** Cuando se necesite: editores en browser, juegos, compresión, ML inference
+- **Frameworks:** Dioxus (React-like), Leptos (full-stack SSR), Yew (component-based)
+- **Learning path:** 5 fases (Fundamentos → WASM básico → Interop → Producción → Frameworks)
 
 ---
 
@@ -189,6 +233,11 @@ supervisor delega → agente genera → shinobi-reviewer evalúa (rubric)
 7. **React/Next.js → Framer Motion** (`npm install motion`) OBLIGATORIO
 8. **21st.dev** para componentes UI listos en proyectos React
 9. **UI UX Pro Max** para design system + estilo antes de implementar
+10. **TypeScript SIEMPRE** — archivos `.ts`/`.tsx` en vez de `.js`/`.jsx`
+11. **Fontshare** para fonts premium (Clash Display headings, Satoshi body)
+12. **GSAP SplitText** para split-word/letter animations (obligatorio para estilo agencia)
+13. **GLSL** para efectos visuales premium con Three.js
+14. **Rust+WASM** solo para computación pesada (editores, juegos, ML)
 
 ---
 
@@ -200,4 +249,4 @@ supervisor delega → agente genera → shinobi-reviewer evalúa (rubric)
 
 ---
 
-*Última actualización: 2026-08-08*
+*Última actualización: 2026-08-13*
