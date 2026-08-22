@@ -3,7 +3,7 @@ type: resource
 up: "[[Nexus]]"
 tags: [opencode, plugins, config, agents]
 created: 2026-06-08
-updated: 2026-08-07
+updated: 2026-08-19
 ---
 
 # Plugins opencode
@@ -42,11 +42,11 @@ updated: 2026-08-07
 
 | Agente | Modelo | Skills | Rol |
 |--------|--------|--------|-----|
-| supervisor | kimi-k2.7-code ($3.50/M) | feature-dev | Orquestador + outcome loop (delega→review→fix) |
-| shinobi-reviewer | deepseek-v4-pro ($3.48/M) | code-review + security-review | Juez con rubrics formales (5 tipos, scored 0-100) |
+| supervisor | kimi-k3 (free tier) | feature-dev | Orquestador + outcome loop (delega→review→fix) |
+| shinobi-reviewer | deepseek-v4-pro ($3.48/M) | code-review + security-review | Juez con rubrics formales — 2-stage review (Spec + Code Quality) |
 | data-ninja | gpt-5.6-luna ($1.20/M) | mcp-builder | APIs, endpoints, fetch, IndexedDB, rate limiting |
-| designer | minimax-m3 ($1.20/M) | frontend-design | CSS, UI, prototipos premium + visión nativa MiniMax M3 |
-| investigador | mimo-v2.5 ($0.28/M) | agents-md-improver | Verificación estricta, múltiples fuentes, citas |
+| designer | kimi-k2.6 (free tier) | frontend-design | CSS, UI, prototipos premium |
+| investigador | deepseek-v4-flash ($0.28/M) | agents-md-improver | Verificación estricta, múltiples fuentes, citas |
 | content-curator | minimax-m3 ($1.20/M) | skill-creator | Investigación contenido, síntesis, redacción |
 | obsidian-curator | deepseek-v4-flash ($0.28/M) | agents-md-improver | Gestor vault Obsidian (frontmatter, wikilinks, templates) |
 
@@ -106,4 +106,7 @@ supervisor delega → agente genera → shinobi-reviewer evalúa (rubric)
 
 ---
 
-*Última actualización: 2026-08-07*
+*Última actualización: 2026-08-19*
+
+## Changelog agentes
+- **19 Ago 2026:** Migrados a opencode-go free tier. supervisor → kimi-k3, designer → kimi-k2.6, investigador → deepseek-v4-flash. Prompts reescritos (-41% tokens). shinobi-reviewer 2-stage review (Spec Compliance → Code Quality), fix loop máx 3 rondas. supervisor flujo: brainstorming → DESIGN.md → proot template → task→review→fix loop → ledger.

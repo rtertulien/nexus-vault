@@ -12,11 +12,11 @@ up: "[[Nexus]]"
 
 | Agente               | Modelo            | Rol                                                |
 | -------------------- | ----------------- | -------------------------------------------------- |
-| **supervisor**       | Kimi K2.7 Code    | Features, arquitectura, coding (orquesta y delega) |
-| **shinobi-reviewer** | DeepSeek V4 Pro   | QA código: bugs, edge cases, regresiones           |
+| **supervisor**       | Kimi K3           | Features, arquitectura, coding (orquesta y delega) |
+| **shinobi-reviewer** | DeepSeek V4 Pro   | QA código: 2-stage review (Spec + Code Quality)    |
 | **data-ninja**       | GPT-5.6 Luna     | APIs, endpoints, fetch, IndexedDB                  |
-| **designer**         | MiniMax M3        | CSS, UI, prototipos + visión nativa                |
-| **investigador**     | Mimo V2.5         | Verificación estricta, múltiples fuentes           |
+| **designer**         | Kimi K2.6         | CSS, UI, prototipos premium                        |
+| **investigador**     | DeepSeek V4 Flash | Verificación estricta, múltiples fuentes           |
 | **content-curator**  | MiniMax M3        | Investigación contenido, síntesis, redacción       |
 | **obsidian-curator** | DeepSeek V4 Flash | Gestor vault Obsidian                              |
 
@@ -64,13 +64,14 @@ C:\Users\rtert\.config\opencode\agents\
 Cada archivo contiene frontmatter YAML (description, mode, model, temperature, steps, color) + prompt detallado. OpenCode los carga al inicio de cada sesión.
 
 ## Costos (aprox / 1M tokens)
-- GPT-5.6 Luna: $1.20 output / $0.20 input
-- DeepSeek V4 Pro: $3.48
-- DeepSeek V4 Flash: $0.28
-- MiniMax M3: $1.20
-- Qwen 3.7 Plus: $1.60
-- Kimi K2.7 Code: $4.00
+- GPT-5.6 Luna: $1.20 output / $0.20 input (data-ninja)
+- DeepSeek V4 Pro: $3.48 (shinobi-reviewer)
+- DeepSeek V4 Flash: $0.28 (investigador, obsidian-curator)
+- MiniMax M3: $1.20 (content-curator)
+- Kimi K3: nuevo modelo supervisor (opencode-go free tier)
+- Kimi K2.6: nuevo modelo designer (opencode-go free tier)
 
 ## Historial de cambios
+- **19 Ago 2026:** Migrados a opencode-go free tier. supervisor → Kimi K3, designer → Kimi K2.6, investigador → DeepSeek V4 Flash. Prompts reescritos: -41% tokens. shinobi-reviewer ahora 2-stage (Spec Compliance → Code Quality), fix loop máx 3 rondas. supervisor flujo: brainstorming → DESIGN.md → proot template → task→review→fix loop → ledger.
 - **24 Jun 2026:** migrado a deepseek-v4-pro (1M contexto, 97% cache, comunidad valida como frontier-level, reemplaza a qwen3.7-plus en declive -38%)
 - **23 Jun 2026:** Reestructuración completa. 7 agentes entrenados con archivos .md. supervisor: rol corregido a orquestar+delegar con tabla de delegación. vision: eliminado (designer tiene visión nativa). temperature, steps y color configurados por agente. Flujo de trabajo de 3 fases documentado.

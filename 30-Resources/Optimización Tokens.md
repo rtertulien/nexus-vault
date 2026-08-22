@@ -25,12 +25,12 @@ Cada vuelta de clarificación = ~500 tokens extras.
 ### 3. Modelos baratos para tareas simples
 | Modelo | Costo relativo | Úsalo para |
 |--------|----------------|------------|
-| `mimo-v2.5` (investigador) | 1x | Búsquedas, leer archivos, preguntas simples |
-| `deepseek-v4-pro` (shinobi-reviewer, data-ninja) | ~9x | Revisiones, APIs, datos complejos |
-| `glm-5.1` (designer) | ~40x | Solo CSS/diseño cuando flash no basta |
-| `kimi-k2.6` (supervisor) | ~27x | Solo revisión final de seguridad |
+| `deepseek-v4-flash` (investigador, obsidian-curator) | 1x | Búsquedas, leer archivos, preguntas simples, vault |
+| `deepseek-v4-pro` (shinobi-reviewer) | ~9x | Revisiones, 2-stage QA |
+| `gpt-5.6-luna` (data-ninja) | ~4x | APIs, datos complejos |
+| `kimi-k3` / `kimi-k2.6` (supervisor, designer) | free tier | Orquestación, diseño premium |
 
-**Regla:** empieza con flash, escala solo si es necesario.
+**Regla:** empieza con flash, escala solo si es necesario. Los modelos de opencode-go free tier (kimi-k3, kimi-k2.6) no consumen cuota de pago.
 
 ### 4. Compress frecuente
 - Las conversaciones cerradas se comprimen a resúmenes
