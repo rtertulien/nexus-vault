@@ -4,7 +4,7 @@ status: activo
 prioridad: baja
 inicio: 2026-06-08
 area: "[[Dev]]"
-up: "[[Dev]]"
+up: "[[Projects MOC]]"
 tags: [games, stoneshard, build-planner, html]
 ---
 

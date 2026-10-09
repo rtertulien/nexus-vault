@@ -11,8 +11,7 @@ tags:
   - presupuesto
   - arr-stack
   - jellyfin
-up:
-  - "[[Nexus]]"
+up: "[[Projects MOC]]"
 ---
 # Homelab — Setup Final (3 Jul 2026)
 

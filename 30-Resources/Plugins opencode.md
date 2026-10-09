@@ -15,17 +15,17 @@ updated: 2026-08-19
 
 ## Plugins instalados (9)
 
-| Plugin | Versión | Propósito |
-|--------|---------|-----------|
-| opencode-mem | latest | Memoria vectorial, búsqueda rápida |
-| openslimedit | latest | Edición contextual |
-| opencode-websearch-cited | 1.2.0 | Búsqueda web con citas |
-| @tarquinen/opencode-dcp | latest | Compresión de contexto |
-| superpowers | git (obra/superpowers) | Skills: brainstorming, writing-plans, TDD, debugging, code-review, security-review, frontend-design, feature-dev, mcp-builder, skill-creator, agents-md-improver |
-| opencode-snip | latest | Snippets de código |
-| opencode-token-tracker | latest | Tracking de uso de tokens |
-| opencode-autotitle | latest | Títulos automáticos |
-| opencode-power-pack | git (waybarrios/opencode-power-pack) | 11 skills de Claude Code portados a OpenCode |
+| Plugin                   | Versión                              | Propósito                                                                                                                                                        |
+| ------------------------ | ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| opencode-mem             | latest                               | Memoria vectorial, búsqueda rápida                                                                                                                               |
+| openslimedit             | latest                               | Edición contextual                                                                                                                                               |
+| opencode-websearch-cited | 1.2.0                                | Búsqueda web con citas                                                                                                                                           |
+| @tarquinen/opencode-dcp  | latest                               | Compresión de contexto                                                                                                                                           |
+| superpowers              | git (obra/superpowers)               | Skills: brainstorming, writing-plans, TDD, debugging, code-review, security-review, frontend-design, feature-dev, mcp-builder, skill-creator, agents-md-improver |
+| opencode-snip            | latest                               | Snippets de código                                                                                                                                               |
+| opencode-token-tracker   | latest                               | Tracking de uso de tokens                                                                                                                                        |
+| opencode-autotitle       | latest                               | Títulos automáticos                                                                                                                                              |
+| opencode-power-pack      | git (waybarrios/opencode-power-pack) | 11 skills de Claude Code portados a OpenCode                                                                                                                     |
 
 ---
 

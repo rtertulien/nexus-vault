@@ -1,10 +1,10 @@
 ---
 title: "Dead Again"
 type: project
-status: idea
-platform: iOS
-framework: SpriteKit
-up: "[[Nexus]]"
+status: activo
+platform: PC Windows
+framework: Godot 4
+up: "[[Projects MOC]]"
 date: 2026-07-10
 tags:
   - game
@@ -366,10 +366,22 @@ Complementar con packs de itch.io para ahorrar crédito:
 
 ## Referencias del Género
 
-| Juego | Personajes | Enemigos | Armas | UI |
-|---|---|---|---|---|
-| Vampire Survivors | 165 | 120+ | 80+ | HP, timer, level-up, chest |
-| Brotato | 62 | 80+ | 80+ | HP, wave, shop, stats |
-| HoloCure | 47 | 50+ | 30+ | HP, skills, weapon slots |
-| 20 Minutes Till Dawn | 13 | 20-30 | 11 | HP, ammo, darkness |
-| Soulstone Survivors | 23 | Bestiary extensa | 5×23 | HP, cooldowns, skill tree |
+| Juego                | Personajes | Enemigos         | Armas | UI                         |
+| -------------------- | ---------- | ---------------- | ----- | -------------------------- |
+| Vampire Survivors    | 165        | 120+             | 80+   | HP, timer, level-up, chest |
+| Brotato              | 62         | 80+              | 80+   | HP, wave, shop, stats      |
+| HoloCure             | 47         | 50+              | 30+   | HP, skills, weapon slots   |
+| 20 Minutes Till Dawn | 13         | 20-30            | 11    | HP, ammo, darkness         |
+| Soulstone Survivors  | 23         | Bestiary extensa | 5×23  | HP, cooldowns, skill tree  |
+
+## Sesión 2026-09-12 — Cambio a PC + Assets
+
+- **Cambio:** iOS SpriteKit descartado. Ahora PC Windows en Godot 4 + GDScript. WASD + mouse, 1280x720 base, export .exe a itch.io.
+- **Usuario no sabe dibujar:** se usan packs descargados, sin arte propio.
+- **Kenney Top-down Shooter (CC0):** descargado y descartado visualmente (feo para el estilo).
+- **TheLazyStone Post-Apocalypse ($0 no comercial):** pack principal, 1384 archivos. Character 124, armas 155+13 pickups (bate, pistola, rifle, escopeta), 3 zombis 181, mapa 779, UI 100. Sin boss, sin gemas/almas, sin level-up/XP. Solo 4 armas, sin sniper.
+- **Assets en:** `Descargas\Dead Again\assets\` (lazy, kenney_ui, kenney_topdown).
+- **Kenney Pixel UI Pack (CC0):** descargado para panel level-up y barras.
+- **Pendiente usuario:** bajar gratis ($0) Domin Dev Free Pixel Gun Pack (50 armas, 4 snipers) + Arcade Island Guns (9 animadas) + gemas greatdocbrown CC0 + boss OGA CC0.
+- **Regla:** todo gratis, usuario sin presupuesto. Nada de pago.
+- **Siguiente paso:** organizar packs nuevos en assets y arrancar proyecto Godot (player + 1 zombi + escopeta).

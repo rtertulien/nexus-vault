@@ -4,7 +4,7 @@ status: activo
 prioridad: media
 inicio: 2026-06-14
 area: "[[Dev]]"
-up: "[[Dev]]"
+up: "[[Projects MOC]]"
 related: ["[[Projects MOC]]", "[[Dev]]"]
 tags: [project, makimono, manga, pwa]
 stack: [kitsu, kavita, tailscale, kover, cloudflare-pages]

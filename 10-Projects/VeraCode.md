@@ -4,7 +4,7 @@ status: idea
 prioridad: media
 inicio: 2026-06-14
 area: "[[Dev]]"
-up: "[[Dev]]"
+up: "[[Projects MOC]]"
 related: ["[[Projects MOC]]"]
 tags: [project, veracode, game, forense]
 stack: [vanilla-js, html-css, pwa, cloudflare-pages]

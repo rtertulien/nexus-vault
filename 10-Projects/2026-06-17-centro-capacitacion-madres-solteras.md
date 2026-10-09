@@ -1,7 +1,7 @@
 ---
 type: spec
 project: Proyecto Humanitario
-status: en-progreso
+status: activo
 fecha: 2026-06-17
 prioridad: alta
 up: "[[Proyecto Humanitario]]"

@@ -1,7 +1,7 @@
 ---
 type: spec
 project: Makimono
-status: design-validated
+status: spec
 fecha: 2026-06-16
 prioridad: alta (julio)
 up: "[[Makimono]]"

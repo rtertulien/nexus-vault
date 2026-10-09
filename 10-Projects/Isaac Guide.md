@@ -1,8 +1,8 @@
 ---
 title: Isaac Guide
-up: "[[Nexus]]"
+up: "[[Projects MOC]]"
 tags: [isaac, guia, referencia, gaming]
-status: en-pausa
+status: pausado
 fecha_inicio: 2026-07-24
 type: project
 ---

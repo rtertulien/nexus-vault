@@ -4,7 +4,7 @@ status: activo
 prioridad: alta
 inicio: 2026-06-08
 area: "[[Dev]]"
-up: "[[Dev]]"
+up: "[[Projects MOC]]"
 related: ["[[Projects MOC]]", "[[Daily]]"]
 tags: [project, shinobi-track, anime, pwa]
 github: rtertulien/shinobi-track

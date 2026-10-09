@@ -1,9 +1,11 @@
 ---
-up: [[Nexus]]
+title: Vanguard Gaming
+type: project
 status: activo
-type: proyecto
-stack: TypeScript, GSAP, Three.js, GNews API, MyMemory API, Cloudflare Pages
 created: 2026-08-14
+up: "[[Projects MOC]]"
+stack: TypeScript, GSAP, Three.js, GNews API, MyMemory API, Cloudflare Pages
+tags: [project, vanguard-gaming, gaming-news, typescript, cloudflare]
 ---
 
 # Vanguard Gaming

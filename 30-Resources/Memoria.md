@@ -19,3 +19,7 @@ Al iniciar sesión, cargar AGENTS.md automáticamente.
 ## Sesiones
 - Última actualización: [[2026-06-16]]
 - Vault central: [[Nexus]]
+
+## Codex
+- Actividad reciente y preferencias: [[Memoria Codex]]
+

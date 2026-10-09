@@ -13,7 +13,7 @@ tags:
   - xcode
   - refurbished
   - plan-d
-up: "[[Nexus]]"
+up: "[[Projects MOC]]"
 ---
 
 # Mac Setup 2026 — Configuración Final

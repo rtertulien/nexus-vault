@@ -4,7 +4,7 @@ type: project
 status: idea
 platform: iOS
 framework: SwiftUI
-up: "[[Nexus]]"
+up: "[[Projects MOC]]"
 created: 2026-07-10
 tags:
   - app

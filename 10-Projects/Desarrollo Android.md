@@ -11,7 +11,7 @@ tags:
   - movil
   - android-studio
   - mcp
-up: "[[Nexus]]"
+up: "[[Projects MOC]]"
 ---
 
 # Desarrollo Android

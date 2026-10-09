@@ -4,7 +4,7 @@ status: activo
 prioridad: alta
 inicio: 2026-06-16
 area: "[[Dev]]"
-up: "[[Dev]]"
+up: "[[Projects MOC]]"
 related: ["[[Projects MOC]]"]
 tags: [project, humanitario, rd, capacitacion, madres-solteras]
 ---
@@ -103,8 +103,8 @@ Barra (diagnóstico), donut (presupuesto), Gantt (cronograma), árbol de problem
 ## Archivos Generados
 
 - [[2026-06-17-centro-capacitacion-madres-solteras]] — Spec completo (~250 líneas)
-- `30-Resources/Presupuesto_Centro_Madres_Solteras.xlsx` — Presupuesto detallado (6 hojas, RD$110M)
-- `30-Resources/Propuesta_Centro_Madres_Solteras.docx` — Propuesta completa (~50pp, 16 secciones)
+- [[30-Resources/_attachments/Presupuesto_Centro_Madres_Solteras_PROFESIONAL.xlsx]] — Presupuesto detallado (6 hojas, RD$110M)
+- [[30-Resources/_attachments/Propuesta_Centro_Madres_Solteras_PROFESIONAL.docx]] — Propuesta completa (~50pp, 16 secciones)
 
 ## Pendientes
 

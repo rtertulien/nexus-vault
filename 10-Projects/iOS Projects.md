@@ -12,7 +12,7 @@ tags:
   - healthkit
 status: activo
 type: project
-up: "[[Nexus]]"
+up: "[[Projects MOC]]"
 ---
 
 # iOS Projects
